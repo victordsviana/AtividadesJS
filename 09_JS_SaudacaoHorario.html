@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//BR" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Programa do arquivo 09_JS_SaudacaoHorario.html -->
+
+
+<html xmln="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Bem-Vindo</title>
+    <script type="text/javascript">
+       
+        var nome;
+        var agora = new Date();
+        var hora = agora.getHours();
+
+        nome = prompt("Entre com seu nome ");
+
+        if(hora<12)
+            document.write("<h1>Bom Dia, </h1>")
+        
+        if(hora >=12){
+            hora = hora - 12;
+        
+        if(hora<6)
+            document.write("<h1>Boa Tarde, </h1>")
+        
+        if(hora>=6)
+            document.write("<h1>Boa Noite, </h1>")
+        }
+        document.writeln(nome + ", seja bem vindo!")
+
+    </script>
+</head>
+
+<body>
+ 
+</body>
+
+
+</html>
