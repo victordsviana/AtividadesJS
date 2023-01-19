@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Daniel Irineu dos Santos
 Victor dos Santos Viana
+=======
+Daniel Irineu dos Santos
+Victor dos Santos Viana
+>>>>>>> aad868fc69156912def3b094c42f7f83924e92a0
